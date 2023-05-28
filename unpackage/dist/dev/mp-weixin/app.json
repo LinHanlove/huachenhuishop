@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/ShoppingCart/ShoppingCart",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/productDetails/productDetails",
+    "pages/confirmAnOrder/confirmAnOrder",
+    "pages/register/register",
+    "pages/harvestAddress/harvestAddress",
+    "pages/addNewAddress/addNewAddress",
+    "pages/myOrder/myOrder",
+    "pages/myFootprintList/myFootprintList",
+    "pages/aboutUs/aboutUs"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "iconPath": "static/images/shouye0.png",
+        "selectedIconPath": "static/images/shouye1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/images/fenlei0.png",
+        "selectedIconPath": "static/images/fenlei1.png",
+        "pagePath": "pages/classification/classification",
+        "text": "分类"
+      },
+      {
+        "iconPath": "static/images/gouwuche0.png",
+        "selectedIconPath": "static/images/gouwuche1.png",
+        "pagePath": "pages/ShoppingCart/ShoppingCart",
+        "text": "购物车"
+      },
+      {
+        "iconPath": "static/images/wode0.png",
+        "selectedIconPath": "static/images/wode1.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

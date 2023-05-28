@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新增地址",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "eh-picker": "/components/erha-picker/erha-picker"
+  }
+}

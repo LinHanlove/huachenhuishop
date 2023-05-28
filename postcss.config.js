@@ -1,0 +1,18 @@
+const path = require("path");
+
+module.exports = {
+	plugins: [
+		require("autoprefixer")({
+			remove: process.env.UNI_PLATFORM !== "h5",
+		}),
+		require("tailwindcss")({
+			config: path.resolve(__dirname, "./tailwind.config.js"),
+		}),
+		// rem 转 rpx
+		require("postcss-rem-to-responsive-pixel/postcss7")({
+			rootValue: 32,
+			propList: ["*"],
+			transformUnit: "rpx",
+		}),
+	],
+};

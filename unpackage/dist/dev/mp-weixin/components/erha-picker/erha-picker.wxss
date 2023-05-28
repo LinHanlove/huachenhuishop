@@ -1,0 +1,55 @@
+ul,
+li {
+  list-style: none;
+}
+.level-container {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+}
+.level-container .select {
+  color: red;
+  position: relative;
+}
+.level-container .select::after {
+  content: '';
+  width: 40upx;
+  height: 6upx;
+  background: red;
+  position: absolute;
+  left: 50%;
+  bottom: -8upx;
+  margin-left: -20upx;
+}
+.level-container li {
+  font-size: 26upx;
+}
+.level-container .content,
+.level-container .name-list {
+  padding: 0 20upx;
+}
+.level-container .title {
+  font-size: 32upx;
+  margin: 30upx 20upx;
+}
+.level-container .name-list {
+  display: flex;
+}
+.level-container .name-list li {
+  margin-right: 40upx;
+  padding-bottom: 6upx;
+}
+.level-container .content {
+  margin-top: 20upx;
+  height: 600upx;
+  overflow-y: auto;
+}
+.level-container .content li {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 20upx 0;
+}
+.level-container .content li:last-child {
+  border-bototm: none !important;
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "全部产品",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "iconfont": "/components/iconfont/iconfont",
+    "u-loadmore": "/uni_modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}
